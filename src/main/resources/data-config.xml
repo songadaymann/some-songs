@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+  <context:component-scan base-package="com.ssj.dao">
+    <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository"/>
+  </context:component-scan>
+
+  <bean id="connectionPoolDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <property name="driverClassName" value="${jdbc.driverClassName:com.mysql.jdbc.Driver}"/>
+    <property name="url" value="${jdbc.url}"/>
+    <property name="username" value="${jdbc.username}"/>
+    <property name="password" value="${jdbc.password}"/>
+  </bean>
+
+  <bean id="pool" class="org.apache.commons.pool.impl.GenericObjectPool">
+    <property name="maxActive" value="${jdbc.pool.maxActive:20}"/>
+    <property name="maxIdle" value="${jdbc.pool.maxIdle:20}"/>
+    <property name="minEvictableIdleTimeMillis" value="300000"/>
+    <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+  </bean>
+
+  <bean id="dsConnectionFactory" class="org.apache.commons.dbcp.DataSourceConnectionFactory">
+    <constructor-arg ref="connectionPoolDataSource"/>
+  </bean>
+
+  <bean id="poolableConnectionFactory" class="org.apache.commons.dbcp.PoolableConnectionFactory">
+    <constructor-arg index="0" ref="dsConnectionFactory"/>
+    <constructor-arg index="1" ref="pool"/>
+    <constructor-arg index="2">
+      <null/>
+    </constructor-arg>
+    <constructor-arg index="3">
+      <null/>
+    </constructor-arg>
+    <constructor-arg index="4" value="false"/>
+    <constructor-arg index="5" value="true"/>
+  </bean>
+
+  <bean id="pooledDataSource" class="org.apache.commons.dbcp.PoolingDataSource" depends-on="poolableConnectionFactory">
+    <constructor-arg ref="pool"/>
+  </bean>
+
+  <bean id="namingStrategy" class="com.ssj.hibernate.TableNamePrefixNamingStrategy">
+    <constructor-arg index="0" value="${database.table_prefix:}"/>
+  </bean>
+
+  <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+    <property name="dataSource" ref="pooledDataSource"/>
+    <property name="hibernateProperties">
+      <props>
+        <prop key="hibernate.cglib.use_reflection_optimizer">false</prop>
+        <prop key="hibernate.dialect">${hibernate.dialect:org.hibernate.dialect.MySQLDialect}</prop>
+        <prop key="hibernate.show_sql">${hibernate.show_sql:false}</prop>
+        <prop key="hibernate.format_sql">${hibernate.format_sql:true}</prop>
+        <prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto:update}</prop>
+        <prop key="hibernate.cache.use_second_level_cache">true</prop>
+        <prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
+      </props>
+    </property>
+    <property name="packagesToScan">
+      <list>
+        <value>com.ssj.model.action</value>
+        <value>com.ssj.model.artist</value>
+        <value>com.ssj.model.base</value>
+        <value>com.ssj.model.content</value>
+        <value>com.ssj.model.messageboard</value>
+        <value>com.ssj.model.playlist</value>
+        <value>com.ssj.model.song</value>
+        <value>com.ssj.model.user</value>
+      </list>
+    </property>
+    <property name="namingStrategy" ref="namingStrategy"/>
+  </bean>
+
+  <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+    <property name="sessionFactory" ref="sessionFactory"/>
+  </bean>
+
+  <tx:annotation-driven/>
+
+  <!-- enables exception translation on @Repository classes -->
+  <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
+</beans>

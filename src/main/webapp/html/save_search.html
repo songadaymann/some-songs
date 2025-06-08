@@ -1,0 +1,10 @@
+<div id="saveSongDiv">
+  <form name="saveSearchForm" onsubmit="saveSearch(); return false;">
+    <input type="hidden" name="save" value="true">
+    <b>Search Name:</b><br>
+    <div id="songSearchErrors" class="errors" style="display:none"></div>
+    <input id="searchNameInput" name="searchName" maxlength="64" style="width:100%"/>
+    <input style="float:right" type="button" onclick="saveSearch()" class="commentButton" name="saveSearchBtn" value="Save">
+    <input style="float:right" type="button" onclick="cancelSaveSearch()" class="commentButton" name="cancelSaveSearchBtn" value="Cancel">
+  </form>
+</div>

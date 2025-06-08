@@ -1,0 +1,2 @@
+<%@ attribute name="bandcampTrackId" required="true" %>
+<iframe width="300" height="100" style="position: relative; display: block; width: 300px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track=${bandcampTrackId}/size=grande/bgcol=FFFFFF/linkcol=4285BB/" allowtransparency="true" frameborder="0"><a href="http://berkeleysocialscene.bandcamp.com/track/thinkin-about-the-old-days">Thinkin' About the Old Days by Berkeley Social Scene</a></iframe>

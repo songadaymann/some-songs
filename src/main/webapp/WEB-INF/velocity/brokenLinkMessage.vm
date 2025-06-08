@@ -1,0 +1,21 @@
+Dear $displayName,
+
+The link to one of your songs does not appear to be working at the moment,
+so the song has been disabled. Once you have resolved the issue with the
+link you can unhide the song by editing the song, checking the box
+labeled "Show Song", and saving the change.
+
+The song in question is:
+'$songTitle' by $artistName
+
+The song info page is:
+$(siteURL)song?id=$songId
+
+The song's current link is:
+$songUrl
+
+If you have any questions, please go to somesongs and send a message to the admin via the link in the bottom bar.
+
+Thanks!
+
+

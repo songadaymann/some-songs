@@ -1,0 +1,124 @@
+{
+  "downloadable": 2,
+  "small_art_url": "http:\/\/f.bandcamp.com\/z\/27\/36\/2736576316-1.png",
+  "album_id": 445830205,
+  "credits": "Jonathan Mann did it.",
+  "title": "Novox The Robot",
+  "tracks": [
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "Lover",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=8d85bd52107f2891284c19ffce7c0e24&id=1429472724&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/lover?pk=358",
+      "track_id": 1429472724,
+      "number": 1,
+      "duration": 239.973
+    },
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "Friends",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=535acbaa1c453191b55a11e611d62b43&id=201531204&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/friends?pk=358",
+      "track_id": 201531204,
+      "number": 2,
+      "duration": 118.12
+    },
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "Take This Knife And Know It",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=d7f2dad6c0a593e61411f37ce9126549&id=826902489&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/take-this-knife-and-know-it?pk=358",
+      "track_id": 826902489,
+      "number": 3,
+      "duration": 167.987
+    },
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "I Am Novox The Robot",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=8e8900a37a210c5035e228dffcf041c3&id=1957817712&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/i-am-novox-the-robot?pk=358",
+      "track_id": 1957817712,
+      "number": 4,
+      "duration": 158.253
+    },
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "You Never Really Had Control",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=17872c669e0bdd0af752aceff75bd822&id=1429594674&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/you-never-really-had-control?pk=358",
+      "track_id": 1429594674,
+      "number": 5,
+      "duration": 251.547
+    },
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "Do You Want To Touch Me?",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=08ff34ec33bdc949d3cec857c4f88a90&id=2610572696&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/do-you-want-to-touch-me?pk=358",
+      "track_id": 2610572696,
+      "number": 6,
+      "duration": 214.387
+    },
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "I Don't Know How To Love You",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=147d3df1b2585e4418309382211a77bd&id=3041357159&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/i-dont-know-how-to-love-you?pk=358",
+      "track_id": 3041357159,
+      "number": 7,
+      "duration": 95.9867
+    },
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "Race To Seven",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=49792ee2b8abca42830efec5e2ac763e&id=2213773415&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/race-to-seven?pk=358",
+      "track_id": 2213773415,
+      "number": 8,
+      "duration": 114.84
+    },
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "Danger Bus",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=374e872e6506e90a7e4e686b727cf0e9&id=1321849481&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/danger-bus?pk=358",
+      "track_id": 1321849481,
+      "number": 9,
+      "duration": 194.813
+    },
+    {
+      "album_id": 445830205,
+      "downloadable": 2,
+      "title": "Fire Bomb",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=2490b5b611a1be9bd24a97f67602f7bf&id=4051967136&pk=358&stream=1&ts=1316903820.0",
+      "band_id": 3288886718,
+      "url": "\/track\/fire-bomb?pk=358",
+      "track_id": 4051967136,
+      "number": 10,
+      "duration": 224.093
+    }
+  ],
+  "band_id": 3288886718,
+  "url": "http:\/\/jonathanmann.bandcamp.com\/album\/novox-the-robot?pk=358",
+  "large_art_url": "http:\/\/f.bandcamp.com\/z\/39\/82\/3982754712-1.png",
+  "release_date": 1086048000,
+  "about": "Novox the Robot is a concept album\/rock opera germ about a man, Edmund, who is killed by his best friend. Edmund's soul is downloaded into a robot, and he seeks revenge while at the same time is searching for the woman he loves."
+}

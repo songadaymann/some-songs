@@ -1,0 +1,542 @@
+a {
+  color: #007;
+}
+
+a:link {
+  text-decoration:none;
+}
+a:visited {
+  text-decoration:none;
+}
+a:hover {
+  color: #00f;
+  text-decoration:underline;
+}
+a:active {
+  text-decoration:underline;
+  color:#00a;
+}
+h3 {
+  font-size:200%;
+  font-weight:bold;
+}
+form {
+  display:inline;
+}
+hr {
+  height:1px;
+  color:#CCCCCC;
+  background-color:#CCCCCC;
+}
+#hd {
+  margin-top:8px;
+  padding:3px;
+  border:1px solid #ccc;
+}
+.clickable {
+  color:#007;
+  cursor:pointer;
+}
+.yui-b {
+  margin-top:15px;
+}
+
+#rightNavBox {
+  border-left:1px solid #ccc;
+  padding-left:2px;
+}
+.rightNavBoxHeader {
+  font-weight:bold;
+  border-bottom:1px solid #999;
+  padding:2px;
+}
+.rightNavBoxList {
+  font-size:90%;
+  padding:2px;
+  list-style:circle;
+  padding-left:20px
+}
+/*
+#topNavBox, #footerLinksBox {
+}
+*/
+
+#footerLinks li  {
+  display: inline;
+  list-style-type: none;
+  margin-right: 6px;
+  padding:1px 2px;
+  font-size:85%;
+  border:1px solid #ccc;
+}
+#hd span.selected, #footerLinks li.selected {
+  font-weight:bold;
+  background:#ccc;
+  border:1px solid #000;
+}
+
+#hd span  {
+  margin-right: 6px;
+  padding:1px 2px;
+  font-size:85%;
+  border:1px solid #ccc;
+}
+.loginBox {
+  float: right;
+  clear:right;
+  position:relative;
+  font-size:85%;
+  border:0;
+  /*border:1px solid #ccc;*/
+  padding:1px 2px;
+}
+
+#ft {
+  margin:8px 0;
+  padding:3px;
+  border:1px solid #ccc;
+}
+
+/* SONG LIST STYLES */
+.songListHeader {
+  padding:2px;
+  width:90%;
+  border:1px solid #ccc;
+  text-align:left;
+  clear:both;
+}
+
+.songListPaging {
+  float:right;
+  text-align:right;
+}
+.songListName {
+  color:#000;
+  font-weight:bold;
+  font-size:95%;
+  /*float:left;*/
+  text-align:left;
+}
+.songList {
+  width:90%;
+}
+
+.songList td {
+  padding:3px;
+}
+.songListOddRow {
+  background:#eee;
+}
+.songListEvenRow {
+  background:#fff;
+}
+
+.pageHeader {
+  background:#ccc;
+  border: 1px solid #ccc;
+  font-size:125%;
+  font-weight:bold;
+  /*margin:5px;*/
+  margin:5px 0;
+  padding:5px 0;
+}
+
+.songLink {
+  display:inline-block;
+  text-align:center;
+  color:#005;
+  background-color:#dde;
+  border:1px solid #005;
+  /*font-family:"arial","helvetica";*/
+  font-size:80%;
+  font-weight:normal;
+  /*vertical-align:1px;*/
+  padding:1px;
+}
+
+.playerSpan {
+  color:#005;
+  background-color:#dde;
+  border:1px solid #005;
+  /*font-family:"arial","helvetica";*/
+  font-size:80%;
+  font-weight:normal;
+  /*vertical-align:1px;*/
+  padding:1px;
+  cursor:pointer;
+}
+
+.needsRatings {
+  color:#a00;
+  font-size:90%;
+}
+
+.songInfoTable {
+  border:1px solid #ccc;
+}
+
+.songInfoTable td {
+  padding:1px;
+}
+
+.oddRow, .row0 {
+  background-color:#eee;
+}
+
+.evenRow, .row1 {
+  background-color:#fff;
+}
+
+#moreInfoLink {
+  font-size:80%;
+}
+.smallBoldLink {
+  font-weight:bold;
+  font-size:80%;
+}
+
+.songCommentsHeader {
+  border: 1px solid #ccc;
+  width:90%;
+}
+
+.successMessage {
+  width:40%;
+  font-weight:bold;
+  border: 1px solid #333;
+  background-color: #dfd;
+  padding:4px;
+  margin:2px;
+}
+
+.postLink {
+  color:#000;
+  background-color:#eef;
+  font-weight:normal;
+  border:1px solid #000;
+}
+.postLink:hover, .postLink.selectedRating {
+  text-decoration:none;
+  color:#fff;
+  background-color:#000;
+}
+.playlistLink {
+  vertical-align:middle;
+  padding-right:14px;
+  font-weight:normal;
+  color:#000;
+  background:#eef url(../img/down-arrow.png) no-repeat center right;
+  border:1px solid #ccc;
+}
+.playlistLink:hover, .playlistLink:active {
+  vertical-align:middle;
+  text-decoration:none;
+  color:#333;
+  background-color:#eef;
+}
+.popupMenu {
+  position:absolute;
+  overflow-y:auto;
+  text-align:left;
+  width:200px;
+  border:1px solid #ccc;
+  background-color:#fff;
+  z-index:1
+}
+.popupMenu ul {
+}
+.popupMenu li {
+  cursor:pointer;
+  padding:6px;
+}
+.popupMenu li:hover {
+  color:#333;
+}
+.postTable {
+  border: 1px solid #333;
+  background:#eee;
+  margin-right:30px;
+}
+.postTableOdd {
+  border: 1px solid #333;
+  margin-right:30px;
+}
+.postContent {
+  padding:8px;
+}
+.postTopRow {
+  /*border-bottom: 1px solid #333;*/
+}
+.postTopRow td {
+  padding:2px;
+  border-bottom: 1px solid #333;
+}
+.postBottomRow {
+  font-size:80%;
+  border-top: 1px solid #333;
+}
+.postBottomRow td {
+  padding:2px;
+}
+.editLink {
+  display:inline-block;
+  margin:2px 0;
+  font-size:80%;
+  padding:1px;
+  color:#500;
+  background-color:#edd;
+  border:1px solid #500;
+}
+.editLink:hover {
+  text-decoration:none;
+  color:#fff;
+  background-color:#500;
+}
+.quotePostLink {
+  display:inline-block;
+  margin:2px 0;
+  padding:1px;
+  color:#333;
+  background-color:#eee;
+  border:1px solid #333;
+  font-size:80%;
+}
+.quotePostLink:hover {
+  text-decoration:none;
+  color:#fff;
+  background-color:#333;
+}
+.quoted {
+  text-decoration:none;
+  color:#fff;
+  background-color:#333;
+}
+.quoted:hover {
+  color:#333;
+  background-color:#eee;
+  font-size:80%;
+}
+.ratingLink {
+  /*border:1px solid #eee;*/
+  padding:2px;
+  margin:1px;
+}
+.songList .ratingLink {
+  /*border:1px solid #eee;*/
+  padding:2px;
+  margin:1px;
+}
+.good {
+	color:#050;
+	background-color:#fff;
+}
+.okay {
+	color:#550;
+	background-color:#fff;
+}
+.bad {
+	color:#500;
+	background-color:#fff;
+}
+.none {
+	color:#555;
+	background-color:#eee;
+}
+.ratingLink:active {
+  text-decoration:none;
+}
+.ratingLink:hover {
+  text-decoration:none;
+  color:#fff;
+  background-color:#005;
+}
+.songList .selectedRating {
+  border-color: #000;
+  padding:1px;
+}
+.selectedRating {
+  border-color: #000;
+}
+.songList .ratingDiv {
+  margin:1px 0;
+}
+.commentButton {
+	margin:1px;
+  border:1px solid #ccc;
+}
+.commentButton:hover {
+  text-decoration:none;
+  border-color:#555;
+	background-color:#555;
+	color:#fff;
+	cursor:pointer;
+}
+.allowedTags {
+  margin:2px;
+  font-size: 75%;
+	color:#aaa;
+}
+.commentDisclaimer {
+  margin:2px;
+  font-size: 75%;
+}
+.selectedRating {
+  border:1px solid #000;
+}
+.medium {
+  font-size:80%;
+}
+#modal_container {
+  padding:5px;
+  background-color:#fff;
+  border:1px solid #666;
+  overflow:auto;
+  /*font-family:"Lucida Grande",Verdana;  */
+  font-size:12px;
+  color:#333;
+  text-align:left;
+  width:50%;
+}
+#modal_overlay {
+  background-color:#000;
+}
+.wholePostLink {
+  border:1px solid #ccc;
+}
+a.addLink {
+  color:#050;
+  text-decoration:none;
+}
+a.addLink span {
+  background-color:#0a0;
+  border:1px solid #050;
+  color:#fff;
+  font-weight:normal;
+}
+a.addLink:hover span {
+  background-color:#fff;
+  color:#000;
+  text-decoration:none;
+}
+a.removeLink {
+  color:#a00;
+  text-decoration:none;
+}
+a.removeLink:hover {
+  text-decoration:none;
+}
+a.removeLink span {
+  background-color:#a00;
+  border:1px solid #500;
+  color:#fff;
+  font-weight:normal;
+}
+a.removeLink:hover span {
+  background-color:#fff;
+  color:#000;
+  text-decoration:none;
+}
+.errors, #global_errors ul {
+  color: #000;
+  background: #fcc;
+  border: 1px solid #a00;
+  margin:5px 0;
+  padding:5px;
+}
+blockquote {
+  display:inline;
+  font-style:italic;
+  margin:0;
+  padding:0;
+}
+blockquote credit {
+  font-style:normal;
+}
+.postContent ul, .oddRow ul, .evenRow ul {
+  list-style-type:disc;
+  padding-left:2em;
+}
+.postContent ol, .oddRow ol, .evenRow ol {
+  list-style-type:decimal;
+  padding-left:2em;
+}
+input, select, textarea {
+	font-size:12px;
+  /*font-family: "arial";*/
+	background-color: #fff;
+	margin:1px 0;
+	border:1px solid #ccc;
+	padding:0;
+}
+input[type=radio], input[type=radio] {
+  border:0;
+}
+input[type=submit] {
+	margin:1px;
+}
+input[type=submit]:hover, input[type=button]:hover {
+	border-color:#555;
+	background-color:#555;
+	color:#fff;
+	cursor:pointer;
+}
+.myInfoHeader {
+  font-weight:bold;
+  border-bottom:1px solid #999;
+  padding:2px;
+}
+.myInfoList {
+  font-size:90%;
+  padding:2px;
+  list-style:circle;
+  padding-left:20px
+}
+.myInfoListNoDelete {
+  font-size:90%;
+  padding:2px;
+  list-style:circle;
+  padding-left:20px
+}
+.songComment {
+  padding:5px;
+}
+a.myInfoDelete {
+  color:#a00;
+  font-weight:bold;
+}
+a.myInfoDelete:hover {
+  text-decoration:none;
+}
+.boxed {
+  border:1px solid #ccc;
+  padding:1px;
+}
+.grayBottom {
+  border-bottom:1px solid #ccc;
+}
+.boldGrayBottom {
+  font-weight:bold;
+  border-bottom:1px solid #ccc;
+  padding:2px;
+}
+.playlistItemNote {
+  font-size:80%;
+  margin-top:4px;
+  margin-left:8px;
+  width:40%;
+}
+tr.sm2_playing {
+  background-color:#9cf;
+}
+tr.sm2_paused {
+  background-color:#999;
+}
+.nowrap {
+  white-space:nowrap;
+}
+.songInfoLabel {
+  white-space:nowrap;
+  float:left;
+  width:100px;
+  text-align:right;
+}

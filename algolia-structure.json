@@ -1,0 +1,833 @@
+Record 3:
+{
+  "name": "Trump vs. Elon (WHO COULD HAVE SEEN THIS COMING?)",
+  "description": "SIX THOUSAND AND ONE",
+  "created_by": "Jonathan Mann",
+  "token_id": 6001,
+  "image": "ipfs://bafybeiftz3sqvelyd7j2agbtfieh7cftshrsvtfhs2neufqbtpoviz6jcm",
+  "animation_url": "ipfs://bafybeiawfxfipkfy6rzwc4kv3rslxwuisaaaeh5maebxj36snshxwy74bi",
+  "audio_url": "ipfs://bafybeiefh5lmp6w7cmdwhvriodomizfmmr76s46j7hf7jlru3nqwsgmqsa",
+  "external_url": "https://songaday.world/song/6001",
+  "youtube_url": "https://youtu.be/RaPpTHNpYes",
+  "attributes": [
+    {
+      "trait_type": "Date",
+      "value": "2025-06-06"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Hartford, CT Studio 3"
+    },
+    {
+      "trait_type": "Topic",
+      "value": "Politics"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Synths"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Intense"
+    },
+    {
+      "trait_type": "Beard",
+      "value": "Beard"
+    },
+    {
+      "trait_type": "Genre",
+      "value": "Funk"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Light"
+    },
+    {
+      "trait_type": "Length",
+      "value": "1:06"
+    },
+    {
+      "trait_type": "Key",
+      "value": "Eb"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "99"
+    },
+    {
+      "trait_type": "Song A Day",
+      "value": "6001"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Samples"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Drums"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Drum Machine"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Fun"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Frustrated"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Proper Noun",
+      "value": "Donald Trump, Elon Musk"
+    }
+  ],
+  "Date": "2025-06-06",
+  "Location": "Hartford, CT Studio 3",
+  "Topic": "Politics",
+  "Instrument": [
+    "Synths",
+    "Samples",
+    "Drums",
+    "Drum Machine"
+  ],
+  "Mood": "Intense",
+  "Beard": "Beard",
+  "Genre": "Funk",
+  "Style": [
+    "Light",
+    "Fun",
+    "Frustrated",
+    "Angry"
+  ],
+  "Length": "1:06",
+  "Key": "Eb",
+  "Tempo": "99",
+  "Song A Day": "6001",
+  "Year": "2025",
+  "Proper Noun": "Donald Trump, Elon Musk",
+  "objectID": "6001",
+  "_highlightResult": {
+    "name": {
+      "value": "Trump vs. Elon (WHO COULD HAVE SEEN THIS COMING?)",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "description": {
+      "value": "SIX THOUSAND AND ONE",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "token_id": {
+      "value": "6001",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "attributes": [
+      {
+        "value": {
+          "value": "2025-06-06",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Hartford, CT Studio 3",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Politics",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Synths",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Intense",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Beard",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Funk",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Light",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "1:06",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Eb",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "99",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "6001",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "2025",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Samples",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Drums",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Drum Machine",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Fun",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Frustrated",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Angry",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Donald Trump, Elon Musk",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      }
+    ]
+  }
+}
+---
+Record 4:
+{
+  "name": "Crypto Tax Nightmare",
+  "description": "\"The story behind this song ended in March 2024, when I sold my Autoglyph and used the $1.1 million proceeds to pay my tax bill. The day after I paid, I began writing this song. I've worked on it on and off for the past year and a half.\nOriginally, this wasn't going to be Song #6000, but as the song and video evolved, I started to feel the message was one I wanted to amplify with the hoopla of this milestone.\nSomething not everyone will notice: Almost every scene references a music video from the 80s or 90s. I’d love for someone in the comments to see if they can call out every single one with a timestamp. Each reference has personal meaning—these are the videos I watched from childhood through my teenage years. They all contributed, in one way or another, to my dream of becoming a musician.\nWhy use them? As a young teenager, I believed that getting a music video on MTV was how you knew you'd \"\"made it.\"\"\nFast forward to 2022, when I made $3 million. For a moment, I felt like I had \"\"made it.\"\" But even before the tax nightmare began, I remember thinking, \"\"Now what?\"\"\nThe music video—and specifically its near-obsolescence as a medium (especially as an MTV-based medium)—serves as a reminder that there's no such thing as \"\"making it.\"\" Rather, I am \"\"making it\"\" every single day I sit down to write my song.\nI hope you enjoy the story!\n\"",
+  "created_by": "Jonathan Mann",
+  "token_id": 6000,
+  "image": "ipfs://bafybeibsyaav5yew3ttbifit56swzcbcu5gsqbivuhkql53gpa3vua3yr4",
+  "animation_url": "ipfs://bafybeibrgywubfwpvm5ep5h5xncpyunpr24k7ipuep3c7i4vjltsvvujnq",
+  "audio_url": "ipfs://bafybeifwiglyktrrvbwmn7cwgr76ywkdyhmycrwqnhvp72wusgjmea2xmy",
+  "external_url": "https://songaday.world/song/6000",
+  "youtube_url": "https://youtu.be/WjEB7W1NSTg",
+  "attributes": [
+    {
+      "trait_type": "Date",
+      "value": "2025-06-05"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Hartford, CT Studio 3"
+    },
+    {
+      "trait_type": "Topic",
+      "value": "Crypto"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Synths"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Relieved"
+    },
+    {
+      "trait_type": "Beard",
+      "value": "Beard"
+    },
+    {
+      "trait_type": "Genre",
+      "value": "Electro"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Light"
+    },
+    {
+      "trait_type": "Length",
+      "value": "6:20"
+    },
+    {
+      "trait_type": "Key",
+      "value": "Cm"
+    },
+    {
+      "trait_type": "Tempo",
+      "value": "140"
+    },
+    {
+      "trait_type": "Song A Day",
+      "value": "6000"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Samples"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Drum Machine"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Acoustic Guitar"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Electric Guitar"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Bass"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Percussion"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Saxophone"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Heavy"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Driving"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Fun"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Funny"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Narrative"
+    },
+    {
+      "trait_type": "Noun",
+      "value": "Music Videos from the 80s and 90s"
+    },
+    {
+      "trait_type": "Proper Noun",
+      "value": "Autoglyphs, Myron Koch, Juliana Mann, Song A Day"
+    }
+  ],
+  "Date": "2025-06-05",
+  "Location": "Hartford, CT Studio 3",
+  "Topic": "Crypto",
+  "Instrument": [
+    "Synths",
+    "Samples",
+    "Drum Machine",
+    "Acoustic Guitar",
+    "Electric Guitar",
+    "Bass",
+    "Percussion",
+    "Saxophone"
+  ],
+  "Mood": "Relieved",
+  "Beard": "Beard",
+  "Genre": "Electro",
+  "Style": [
+    "Light",
+    "Heavy",
+    "Driving",
+    "Fun",
+    "Funny",
+    "Narrative"
+  ],
+  "Length": "6:20",
+  "Key": "Cm",
+  "Tempo": "140",
+  "Song A Day": "6000",
+  "Year": "2025",
+  "Noun": "Music Videos from the 80s and 90s",
+  "Proper Noun": "Autoglyphs, Myron Koch, Juliana Mann, Song A Day",
+  "objectID": "6000",
+  "_highlightResult": {
+    "name": {
+      "value": "Crypto Tax Nightmare",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "description": {
+      "value": "\"The story behind this song ended in March 2024, when I sold my Autoglyph and used the $1.1 million proceeds to pay my tax bill. The day after I paid, I began writing this song. I've worked on it on and off for the past year and a half.\nOriginally, this wasn't going to be Song #6000, but as the song and video evolved, I started to feel the message was one I wanted to amplify with the hoopla of this milestone.\nSomething not everyone will notice: Almost every scene references a music video from the 80s or 90s. I’d love for someone in the comments to see if they can call out every single one with a timestamp. Each reference has personal meaning—these are the videos I watched from childhood through my teenage years. They all contributed, in one way or another, to my dream of becoming a musician.\nWhy use them? As a young teenager, I believed that getting a music video on MTV was how you knew you'd \"\"made it.\"\"\nFast forward to 2022, when I made $3 million. For a moment, I felt like I had \"\"made it.\"\" But even before the tax nightmare began, I remember thinking, \"\"Now what?\"\"\nThe music video—and specifically its near-obsolescence as a medium (especially as an MTV-based medium)—serves as a reminder that there's no such thing as \"\"making it.\"\" Rather, I am \"\"making it\"\" every single day I sit down to write my song.\nI hope you enjoy the story!\n\"",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "token_id": {
+      "value": "6000",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "attributes": [
+      {
+        "value": {
+          "value": "2025-06-05",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Hartford, CT Studio 3",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Crypto",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Synths",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Relieved",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Beard",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Electro",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Light",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "6:20",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Cm",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "140",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "6000",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "2025",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Samples",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Drum Machine",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Acoustic Guitar",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Electric Guitar",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Bass",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Percussion",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Saxophone",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Heavy",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Driving",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Fun",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Funny",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Narrative",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Music Videos from the 80s and 90s",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Autoglyphs, Myron Koch, Juliana Mann, Song A Day",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      }
+    ]
+  }
+}
+---
+Record 5:
+{
+  "name": "What's Another Thousand Songs?",
+  "description": "what's another thousand songs?",
+  "created_by": "Jonathan Mann",
+  "token_id": 5999,
+  "image": "ipfs://bafkreidhl5hcrcvfs6tf4vmcwqgyhdmbcow5ldpj5ky5lufeiq4zvdwuru",
+  "animation_url": "ipfs://bafybeigqgmjzf6wmrihkp7i6qlwkxtipmtgyedktlgduoiokzh35jt4gyy",
+  "audio_url": "ipfs://bafybeiapcysmyzvmuvhyv5diojsyjr6rpksatrlwh7snd3lmbprqcmr2gm",
+  "gif_url": "ipfs://bafkreidhl5hcrcvfs6tf4vmcwqgyhdmbcow5ldpj5ky5lufeiq4zvdwuru",
+  "external_url": "https://songaday.world/song/5999",
+  "youtube_url": "https://youtube.com/watch?v=pjpRX5meATM",
+  "content": {
+    "mime": "video/mp4",
+    "uri": "ipfs://bafybeigqgmjzf6wmrihkp7i6qlwkxtipmtgyedktlgduoiokzh35jt4gyy"
+  },
+  "attributes": [
+    {
+      "trait_type": "Date",
+      "value": "2025-06-04"
+    },
+    {
+      "trait_type": "Location",
+      "value": "Hartford, CT Studio 3"
+    },
+    {
+      "trait_type": "Topic",
+      "value": "Song A Day"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Pensive"
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Acoustic Guitar"
+    },
+    {
+      "trait_type": "Genre",
+      "value": "Folk"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Improvised"
+    },
+    {
+      "trait_type": "Lyrics",
+      "value": "What's another thousand songs what's another\nThousand songs what's another thousand what's another thousand what's another thousand songs?\nThree years and some change\nThree years and some change\nThree years\n& some three years\n& some three years\n& some change\nThree years\n& some change\nAnother in the house\nThree years\n& some change what's another thousand songs what's another thousand songs what's another thousand\nwhat's another thousand\nAnother thousand songs I'm going to sit right here I'm going to sit right\nhere I'm going to sit right I'm going to sit right I'm going\nWe're going to sit right here\nThree years and change\nThree years\nSome change oh, some things change\nSome stay the same\nThree years and change I'm on my way in with another thousand songs what's\nanother thousand songs what's another thousand what's another thousand what's another thousand songs?\nEverybody dies someday\nEverybody dies someday\nEverybody dies some\nEverybody dies some\nEverybody dies someday\nNobody gets away\nEverybody dies someday\nEverybody dies someday\nEverybody dies somewhat\nAnother thousand songs what's another thousand songs what's another thousand songs what's another thousand\nwhat's another thousand what's another thousand songs?\nWhat's another thousand songs what's another thousand songs what's another thousand what's another thousand\nwhat's another thousand songs."
+    },
+    {
+      "trait_type": "Instrument",
+      "value": "Drums"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Wistful"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Improvised"
+    }
+  ],
+  "Date": "2025-06-04",
+  "Location": "Hartford, CT Studio 3",
+  "Topic": "Song A Day",
+  "Mood": "Pensive",
+  "Instrument": [
+    "Acoustic Guitar",
+    "Drums"
+  ],
+  "Genre": "Folk",
+  "Style": [
+    "Improvised",
+    "Wistful",
+    "Improvised"
+  ],
+  "Lyrics": "What's another thousand songs what's another\nThousand songs what's another thousand what's another thousand what's another thousand songs?\nThree years and some change\nThree years and some change\nThree years\n& some three years\n& some three years\n& some change\nThree years\n& some change\nAnother in the house\nThree years\n& some change what's another thousand songs what's another thousand songs what's another thousand\nwhat's another thousand\nAnother thousand songs I'm going to sit right here I'm going to sit right\nhere I'm going to sit right I'm going to sit right I'm going\nWe're going to sit right here\nThree years and change\nThree years\nSome change oh, some things change\nSome stay the same\nThree years and change I'm on my way in with another thousand songs what's\nanother thousand songs what's another thousand what's another thousand what's another thousand songs?\nEverybody dies someday\nEverybody dies someday\nEverybody dies some\nEverybody dies some\nEverybody dies someday\nNobody gets away\nEverybody dies someday\nEverybody dies someday\nEverybody dies somewhat\nAnother thousand songs what's another thousand songs what's another thousand songs what's another thousand\nwhat's another thousand what's another thousand songs?\nWhat's another thousand songs what's another thousand songs what's another thousand what's another thousand\nwhat's another thousand songs.",
+  "objectID": "5999",
+  "_highlightResult": {
+    "name": {
+      "value": "What's Another Thousand Songs?",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "description": {
+      "value": "what's another thousand songs?",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "token_id": {
+      "value": "5999",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "attributes": [
+      {
+        "value": {
+          "value": "2025-06-04",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Hartford, CT Studio 3",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Song A Day",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Pensive",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Acoustic Guitar",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Folk",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Improvised",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "What's another thousand songs what's another\nThousand songs what's another thousand what's another thousand what's another thousand songs?\nThree years and some change\nThree years and some change\nThree years\n& some three years\n& some three years\n& some change\nThree years\n& some change\nAnother in the house\nThree years\n& some change what's another thousand songs what's another thousand songs what's another thousand\nwhat's another thousand\nAnother thousand songs I'm going to sit right here I'm going to sit right\nhere I'm going to sit right I'm going to sit right I'm going\nWe're going to sit right here\nThree years and change\nThree years\nSome change oh, some things change\nSome stay the same\nThree years and change I'm on my way in with another thousand songs what's\nanother thousand songs what's another thousand what's another thousand what's another thousand songs?\nEverybody dies someday\nEverybody dies someday\nEverybody dies some\nEverybody dies some\nEverybody dies someday\nNobody gets away\nEverybody dies someday\nEverybody dies someday\nEverybody dies somewhat\nAnother thousand songs what's another thousand songs what's another thousand songs what's another thousand\nwhat's another thousand what's another thousand songs?\nWhat's another thousand songs what's another thousand songs what's another thousand what's another thousand\nwhat's another thousand songs.",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Drums",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Wistful",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      },
+      {
+        "value": {
+          "value": "Improvised",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      }
+    ]
+  }
+}
+---
+
+
+--- Index Settings ---
+Error fetching data from Algolia: {
+  name: 'ApiError',
+  message: 'Method not allowed with this API key',
+  status: 403,
+  transporterStackTrace: [
+    {
+      request: [Object],
+      response: [Object],
+      host: [Object],
+      triesLeft: 3
+    }
+  ]

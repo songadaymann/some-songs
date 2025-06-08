@@ -1,0 +1,54 @@
+have user action trigger modal login popup for not logged in users:
+artist.jsp
+profile.jsp
+recent.jsp
+
+playlists:
+searching - advanced
+max number of songs...?
+need to add more ways to add songs to playlists from more places (song list, etc.)
+
+songs:
+make sure links point to actual mp3s?
+
+general:
+ajax spinner next to ratings
+replace Hibernate cascade delete N+1 statements with minimum number of bulk delete statements necessary (plus cache flushing?)
+refactor logic out of controllers into services
+consolidate song rating javascript (is in two places, song.js, and song_list.js)
+cut down on spring config: bean name handler, multiaction controllers, etc.
+use spring's ServletRequestUtils, instead of commons classes
+add user preference to have mp3 player open in new window, respond to play/pause links there, instead of playing in each page
+(requested by frankie, wants it to work more like thesixtyone.com, which does the whole "no page reloading" thing, without frames)
+use a common interface or base class among SongComment, SongCommentReply, PlaylistComment, PlaylistCommentReply, and MessageBoardPost
+add reference to Song in SongCommentReply, Playlist in PlaylistCommentReply
+move User profile info into new UserProfile entity?
+add second step, e.g. confirmation, to message to admin, to try to block spam
+
+search:
+-"comments" search? don't know what this does, not going to try to duplicate it
+ignore ignored users
+- issue: num replies for comments is fixed, doesn't take into account ignored users ...
+need a search to find non-hidden songs you haven't commented on yet
+probably don't need advanced search form page, just show/hide advanced options on search page using javascript
+fix javascript issue on artist.jsp with saving searches
+log searches run: search id, user id, timestamp? or count, last run timestamp in search?
+sort list of saved searches by date last run?
+full text searches, using lucene 
+
+user:
+give user preference for default search, select from system searches and saved searches
+
+admin:
+different admin levels? message board admin? song admin? comment/reply admin? user admin?
+add admin UI for viewing/disabling playlist ratings (clone song rating stuff)
+
+problem:
+some songs don't play on the playlist page in IE/Windows (songs from SF! archives)
+
+message board:
+
+jmann:
+
+general:
+replace prototype/scriptaculous with jquery/jquery-ui

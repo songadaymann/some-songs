@@ -1,0 +1,39 @@
+# Global logging configuration
+#log4j.rootLogger=ERROR, stdout, fileout
+
+#log4j.logger.com.ssj=DEBUG
+#log4j.logger.org.springframework=debug
+#log4j.logger.org.springframework.mail=ERROR
+#log4j.logger.org.springframework.orm.hibernate3=debug
+#log4j.logger.org.hibernate=debug
+
+# Console output...
+#log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+#log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+#log4j.appender.stdout.layout.conversionPattern=%p: %c{1}: %m%n
+
+# Rolling log file output...
+#log4j.appender.fileout=org.apache.log4j.RollingFileAppender
+#log4j.appender.fileout.File=contacts.log
+#log4j.appender.fileout.File=somesongs.log
+#log4j.appender.fileout.MaxFileSize=1024KB
+#log4j.appender.fileout.MaxBackupIndex=1
+#log4j.appender.fileout.layout=org.apache.log4j.PatternLayout
+#log4j.appender.fileout.layout.conversionPattern=%d{ABSOLUTE} %5p %c{1},%t:%L - %m%n
+
+#log4j.appender.mailout=com.ssj.mail.log4j.BetterSMTPAppender
+#log4j.appender.mailout.BufferSize=1
+#log4j.appender.mailout.SMTPHost=smtp.gmail.com
+#log4j.appender.mailout.SMTPPort=465
+#log4j.appender.mailout.SMTPProtocol=smtps
+#log4j.appender.mailout.SMTPUsername=somesongs.admin@gmail.com
+#log4j.appender.mailout.SMTPPassword=some123admin!@#
+#log4j.appender.mailout.SMTPDebug=true
+#log4j.appender.mailout.From=somesongs.admin@gmail.com
+#log4j.appender.mailout.To=somesongs.admin@gmail.com
+#log4j.appender.mailout.Subject=Exception report
+#log4j.appender.mailout.Threshold=ERROR
+#log4j.appender.mailout.layout=org.apache.log4j.PatternLayout
+#log4j.appender.mailout.layout.ConversionPattern=[%d{ISO8601}]%n%n%-5p%n%n%c%n%n%m%n%n
+#%d %-5p %c %x - %m%n
+

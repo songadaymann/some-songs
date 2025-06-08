@@ -1,0 +1,134 @@
+{
+  "downloadable": 2,
+  "small_art_url": "http:\/\/f.bandcamp.com\/z\/24\/42\/2442457077-1.png",
+  "album_id": 4220530009,
+  "title": "Songs For Girls",
+  "tracks": [
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "Cheyenne Weaver",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=7e81f54a0ada62773220443eb5ab19cd&id=3284955086&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/cheyenne-weaver?pk=358",
+      "track_id": 3284955086,
+      "number": 1,
+      "duration": 181.5
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "Madison Metro",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=5f233219d602e0911b79fc7142518519&id=874607495&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/madison-metro?pk=358",
+      "track_id": 874607495,
+      "number": 2,
+      "duration": 205.565
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "Sea Bayouth",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=98fcbb4f10e2bc04a2ec6b669b213c65&id=3188091607&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/sea-bayouth?pk=358",
+      "track_id": 3188091607,
+      "number": 3,
+      "duration": 136.346
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "Cheryl Mango",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=010a738047d17b14c9288859ab4d87e7&id=1122589035&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/cheryl-mango?pk=358",
+      "track_id": 1122589035,
+      "number": 4,
+      "duration": 192.444
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "Amanda",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=3259189f8fd8aea70d67b76c01444467&id=363526146&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/amanda?pk=358",
+      "track_id": 363526146,
+      "number": 5,
+      "duration": 90.0
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "Bethany",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=fc72cf75beb1fe82c94e33ac20e88587&id=3833266983&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/bethany?pk=358",
+      "track_id": 3833266983,
+      "number": 6,
+      "duration": 85.8133
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "Megan Healy",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=34a47c294a9bad4d315bd66525acbe4c&id=2842317376&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/megan-healy?pk=358",
+      "track_id": 2842317376,
+      "number": 7,
+      "duration": 59.25
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "The Girl At Golden Spoon",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=d731d2df8bdbcef84aac89319d40e2f6&id=3507091920&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/the-girl-at-golden-spoon?pk=358",
+      "track_id": 3507091920,
+      "number": 8,
+      "duration": 231.081
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "Milly Sanders",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=35e5a168da187dff694196b656ec9736&id=548309739&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/milly-sanders?pk=358",
+      "track_id": 548309739,
+      "number": 9,
+      "duration": 65.9867
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "Morgan Webb Birthday Song",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=1728f396818dbfc530616497f033466a&id=1536990081&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/morgan-webb-birthday-song?pk=358",
+      "track_id": 1536990081,
+      "number": 10,
+      "duration": 109.991
+    },
+    {
+      "album_id": 4220530009,
+      "downloadable": 2,
+      "title": "A Spring of Teal",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=fe058f45d00093dd1f33b7686249331b&id=1387736641&pk=358&stream=1&ts=1316904652.0",
+      "band_id": 3288886718,
+      "url": "\/track\/a-spring-of-teal?pk=358",
+      "track_id": 1387736641,
+      "number": 11,
+      "duration": 204.053
+    }
+  ],
+  "band_id": 3288886718,
+  "url": "http:\/\/jonathanmann.bandcamp.com\/album\/songs-for-girls?pk=358",
+  "large_art_url": "http:\/\/f.bandcamp.com\/z\/26\/99\/2699198453-1.png",
+  "release_date": 1104969600,
+  "about": "This is a collection of songs written (while I was single) between 2004-6. I'd meet a girl that I thought was cool and cute, and I'd write her a song and give it to her...with very limited success in terms of actual dates or anything. Mostly I think it just creeped them out."
+}

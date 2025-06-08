@@ -1,0 +1,160 @@
+index
+faq
+first time
+advanced search
+artist links
+artists/(name regex)
+artists
+contact admin
+contact confirm
+higher rated playlist
+lower rated playlist
+older playlist
+newer playlist
+random playlist
+higher rated song
+lower rated song
+older song
+newer song
+random song
+login help
+login help done
+somesongs playlist m3u
+message board
+profile
+playlist
+playlist info
+playlists
+older comment (?)
+search message board
+multiquote post (todo move to /user)
+multiquote song (todo move to /user)
+playlist comments
+playlist comment list
+playlist comment search
+playlist list
+posts
+register
+register confirm
+register done
+report broken link
+artist search
+playlist search
+search
+comments
+comment list
+comment search
+songs (title id regex)
+song info
+songs
+song list
+statistics
+thread
+view comment
+view comment reply
+view playlist comment
+view playlist comment reply
+view post
+whole post
+connect (provider id) post/delete/get etc.
+signin (same)
+index
+recent
+playlist recent
+login
+login ajax
+
+include:
+other users
+playlist comments
+related artists
+song comments
+
+user:
+my info
+my info timeline
+my artists
+my playlists
+my saved searches
+contact admin
+contact confirm
+add/edit faq (no delete?)
+add artist
+delete artist
+delete artist info
+add link
+delete artist link
+add other user
+add playlist
+add related artist
+add to playlist
+bandcamp song info
+bandcamp artist albums
+delete reply
+delete faq
+delete item
+delete playlist reply
+delete playlist
+delete playlist item
+delete post
+delete song
+delete thread
+edit artist
+edit link
+edit comment
+get comment reply
+update comment reply
+edit faq
+edit playlist comment
+get playlist comment reply
+updated playlist comment reply
+edit playlist
+edit playlist item note
+reply
+edit song
+edit thread
+favorite artist
+favorite playlist
+favorite song
+ignored user
+multiquote playlist
+post song
+preferred user
+rate playlist
+rate song
+reorder playlist items
+saved searches
+save search
+search artists
+search users
+soundcloud tracks
+soundcloud sets
+playlists
+playlist menu
+
+
+admin:
+site links
+site link (?)
+delete site link
+admin user
+content
+content list
+broken link reports
+hide song
+process broken link report
+delete comment
+delete content
+delete message
+delete topic
+disable rating
+edit playlist comment
+edit song comment
+lock thread
+messages
+sign in (?)
+topic
+topics
+ratings
+index
+connections

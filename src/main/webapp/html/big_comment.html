@@ -1,0 +1,11 @@
+<div id="bigComment">
+  <form>
+    <b>Comment:</b><br>
+    <textarea id="bigCommentText" rows="20" style="width:100%"></textarea>
+    <div class="allowedTags">&lt;i&gt; &lt;font&gt; &lt;b&gt; &lt;u&gt; &lt;a&gt; &lt;br&gt; &lt;blockquote&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;em&gt; &lt;strong&gt; &lt;sup&gt; &lt;sub&gt; &lt;credit&gt;</div>
+    <input style="float:right" type="button" onclick="saveBigComment()" class="commentButton" name="saveBiBtn" value="Save">
+    <input style="float:right" type="button" onclick="shrinkComment(true)" class="commentButton" name="shrinkBtn" value="Smaller Box">
+    <input style="float:right" type="button" onclick="shrinkComment(false)" class="commentButton" name="cancelBigBtn" value="Cancel">
+  </form>
+</div>
+<script>TextareaLimiter.addLimiter('bigCommentText', 4000)</script>

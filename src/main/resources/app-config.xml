@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+  <context:component-scan base-package="com.ssj.service,com.ssj.gateway">
+    <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+    <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
+  </context:component-scan>
+
+  <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+    <property name="basename" value="messages/messages"/>
+  </bean>
+
+  <bean id="htmlUtil" class="com.ssj.web.util.HTMLUtil">
+    <property name="messageBoardTags">
+      <set>
+        <value>i</value>
+        <value>font</value>
+        <value>b</value>
+        <value>u</value>
+        <value>a</value>
+        <value>br</value>
+        <value>blockquote</value>
+        <value>ul</value>
+        <value>ol</value>
+        <value>li</value>
+        <value>em</value>
+        <value>strong</value>
+        <value>sup</value>
+        <value>sub</value>
+        <value>credit</value>
+      </set>
+    </property>
+    <property name="commentTags">
+      <set>
+        <value>i</value>
+        <value>font</value>
+        <value>b</value>
+        <value>u</value>
+        <value>a</value>
+        <value>br</value>
+        <value>blockquote</value>
+        <value>ul</value>
+        <value>ol</value>
+        <value>li</value>
+        <value>em</value>
+        <value>strong</value>
+        <value>sup</value>
+        <value>sub</value>
+        <value>credit</value>
+      </set>
+    </property>
+    <property name="songInfoTags">
+      <set>
+        <value>i</value>
+        <value>font</value>
+        <value>b</value>
+        <value>u</value>
+        <value>a</value>
+        <value>em</value>
+        <value>strong</value>
+        <value>sup</value>
+        <value>sub</value>
+        <value>credit</value>
+      </set>
+    </property>
+    <property name="songMoreInfoTags">
+      <set>
+        <value>i</value>
+        <value>font</value>
+        <value>b</value>
+        <value>u</value>
+        <value>a</value>
+        <value>br</value>
+        <value>blockquote</value>
+        <value>ul</value>
+        <value>ol</value>
+        <value>li</value>
+        <value>em</value>
+        <value>strong</value>
+        <value>sup</value>
+        <value>sub</value>
+        <value>credit</value>
+      </set>
+    </property>
+  </bean>
+
+  <task:executor id="taskExecutor" pool-size="0-4" queue-capacity="10" rejection-policy="CALLER_RUNS"/>
+
+  <task:scheduler id="somesongsScheduler"/>
+
+  <task:scheduled-tasks>
+    <task:scheduled ref="bandcampSynchService" method="synchFromBandcamp"
+                    fixed-rate="#{${bandcampSynchPeriodSeconds:86400} * 1000}"/>
+  </task:scheduled-tasks>
+
+<!--
+  <bean id="checkSongLinksTaskFactory" class="org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean">
+    <property name="targetObject" ref="songService"/>
+    <property name="targetMethod" value="checkSongLinks"/>
+    &lt;!&ndash;<property name="concurrent" value="false"/>&ndash;&gt;
+  </bean>
+
+  &lt;!&ndash; TODO make the period a property &ndash;&gt;
+  <bean id="checkSongLinks" class="org.springframework.scheduling.timer.ScheduledTimerTask">
+    <property name="timerTask" ref="checkSongLinksTaskFactory"/>
+    <property name="period" value="7200000"/>
+    &lt;!&ndash;<property name="period" value="60000"/>&ndash;&gt;
+    <property name="fixedRate" value="true"/>
+  </bean>
+
+  <bean id="timerFactory" class="org.springframework.scheduling.timer.TimerFactoryBean">
+    <property name="scheduledTimerTasks">
+      <list>
+        <ref bean="checkSongLinks"/>
+      </list>
+    </property>
+  </bean>
+-->
+
+  <bean class="org.bandcamp4j.client.BandcampClientImpl">
+    <constructor-arg name="apiKey" value="${bandcamp.apiKey:}"/>
+  </bean>
+</beans>

@@ -1,0 +1,102 @@
+{
+  "downloadable": 2,
+  "small_art_url": "http:\/\/f.bandcamp.com\/z\/11\/29\/1129359261-1.png",
+  "album_id": 1035189508,
+  "credits": "Jonathan Mann",
+  "title": "The Mario Opera: Acts 2 + 3 Demos",
+  "tracks": [
+    {
+      "album_id": 1035189508,
+      "downloadable": 2,
+      "title": "Princess Lament_Bowser in Love_Mario is Dead!",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=5f212e80b6a36e65a988cd984d0b9812&id=2585498702&pk=358&stream=1&ts=1316903881.0",
+      "band_id": 3288886718,
+      "url": "\/track\/princess-lament-bowser-in-love-mario-is-dead?pk=358",
+      "track_id": 2585498702,
+      "number": 1,
+      "duration": 385.625
+    },
+    {
+      "album_id": 1035189508,
+      "downloadable": 2,
+      "title": "Princess Escape\/Let's Get Married",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=ca0e4bb660fc347c43ed7d5f8061ed8c&id=368484452&pk=358&stream=1&ts=1316903881.0",
+      "band_id": 3288886718,
+      "url": "\/track\/princess-escape-lets-get-married?pk=358",
+      "track_id": 368484452,
+      "number": 2,
+      "duration": 296.276
+    },
+    {
+      "album_id": 1035189508,
+      "downloadable": 2,
+      "title": "Ludwig Von Koopa",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=2f1eef179a528739e7f2b64f80567ffc&id=1447924052&pk=358&stream=1&ts=1316903881.0",
+      "band_id": 3288886718,
+      "url": "\/track\/ludwig-von-koopa?pk=358",
+      "track_id": 1447924052,
+      "number": 3,
+      "duration": 59.7188
+    },
+    {
+      "album_id": 1035189508,
+      "downloadable": 2,
+      "title": "Summoning Luigi",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=27a9135c11d707dc3b10887263a91f0c&id=2879764339&pk=358&stream=1&ts=1316903881.0",
+      "band_id": 3288886718,
+      "url": "\/track\/summoning-luigi?pk=358",
+      "track_id": 2879764339,
+      "number": 4,
+      "duration": 184.615
+    },
+    {
+      "album_id": 1035189508,
+      "downloadable": 2,
+      "title": "Heaven\/Evil Wedding\/Luigi & Ludwig\/I Must Stand And Fight",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=2bc5419fe96af7108f9699ca5149e034&id=3776545496&pk=358&stream=1&ts=1316903881.0",
+      "band_id": 3288886718,
+      "url": "\/track\/heaven-evil-wedding-luigi-ludwig-i-must-stand-and-fight?pk=358",
+      "track_id": 3776545496,
+      "number": 5,
+      "duration": 608.526
+    },
+    {
+      "album_id": 1035189508,
+      "downloadable": 2,
+      "title": "Mario Returns",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=635fbfe6bc2eed8fd42ab32d8615506b&id=3471409093&pk=358&stream=1&ts=1316903881.0",
+      "band_id": 3288886718,
+      "url": "\/track\/mario-returns?pk=358",
+      "track_id": 3471409093,
+      "number": 6,
+      "duration": 137.143
+    },
+    {
+      "album_id": 1035189508,
+      "downloadable": 2,
+      "title": "Luigi Gets Away",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=d5126f2ae8c578649bf2f8cec8229e57&id=1749809835&pk=358&stream=1&ts=1316903881.0",
+      "band_id": 3288886718,
+      "url": "\/track\/luigi-gets-away?pk=358",
+      "track_id": 1749809835,
+      "number": 7,
+      "duration": 96.6
+    },
+    {
+      "album_id": 1035189508,
+      "downloadable": 2,
+      "title": "Goodbye Toad, Hello Luigi",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=06840a411af089c823ccdf2f61b75847&id=781742432&pk=358&stream=1&ts=1316903881.0",
+      "band_id": 3288886718,
+      "url": "\/track\/goodbye-toad-hello-luigi?pk=358",
+      "track_id": 781742432,
+      "number": 8,
+      "duration": 164.182
+    }
+  ],
+  "band_id": 3288886718,
+  "url": "http:\/\/jonathanmann.bandcamp.com\/album\/the-mario-opera-acts-2-3-demos?pk=358",
+  "large_art_url": "http:\/\/f.bandcamp.com\/z\/63\/83\/638381208-1.png",
+  "release_date": 1149120000,
+  "about": "These are demos for Acts 2 and 3 of the Mario Opera."
+}

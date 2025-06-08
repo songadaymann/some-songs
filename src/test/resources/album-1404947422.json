@@ -1,0 +1,123 @@
+{
+  "downloadable": 2,
+  "small_art_url": "http:\/\/f.bandcamp.com\/z\/38\/18\/3818829131-1.png",
+  "album_id": 1404947422,
+  "title": "The Mario Opera: Act 1 (demos)",
+  "tracks": [
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "The Welcome Song",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=5e41e921d91d6ce6730dc3892f3ea406&id=1381329532&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/the-welcome-song?pk=358",
+      "track_id": 1381329532,
+      "number": 1,
+      "duration": 222.747
+    },
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "Wedding Song",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=b73a08a0e775aa061e4938c31e29a1b8&id=187385538&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/wedding-song?pk=358",
+      "track_id": 187385538,
+      "number": 2,
+      "duration": 282.373
+    },
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "Chorus Back and Forth",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=1ece53c31f56e57c22b4a2c8f2ce67df&id=3651058432&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/chorus-back-and-forth?pk=358",
+      "track_id": 3651058432,
+      "number": 3,
+      "duration": 401.987
+    },
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "I Was Wrong",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=de2a2e80eebbc500b3d365874707a700&id=3663502377&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/i-was-wrong?pk=358",
+      "track_id": 3663502377,
+      "number": 4,
+      "duration": 269.573
+    },
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "Mario Goomba Exchange",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=3fae11a457f734c03ef52ea9ff34558d&id=2191162638&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/mario-goomba-exchange?pk=358",
+      "track_id": 2191162638,
+      "number": 5,
+      "duration": 291.053
+    },
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "Freakout",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=8ed2744e720cfed261ba74964df6e3e5&id=1767179638&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/freakout?pk=358",
+      "track_id": 1767179638,
+      "number": 6,
+      "duration": 113.467
+    },
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "Hope In Toad",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=f275a1639e07bb237ed41d770be4e4c4&id=2479633855&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/hope-in-toad?pk=358",
+      "track_id": 2479633855,
+      "number": 7,
+      "duration": 216.44
+    },
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "Things Are Familiar",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=01d89ccd3087dcfd8a4dafbe409a2af9&id=2663772780&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/things-are-familiar?pk=358",
+      "track_id": 2663772780,
+      "number": 8,
+      "duration": 401.08
+    },
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "The Lizard Wizard",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=ebd43209ff52107a615875a984ae6fb1&id=2359564667&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/the-lizard-wizard?pk=358",
+      "track_id": 2359564667,
+      "number": 9,
+      "duration": 218.533
+    },
+    {
+      "album_id": 1404947422,
+      "downloadable": 2,
+      "title": "Shigeru Miyamoto",
+      "streaming_url": "http:\/\/popplers5.bandcamp.com\/download\/track?enc=mp3-128&fsig=b1e2b2d920fc0fec8732c99aa2124c28&id=1822839933&pk=358&stream=1&ts=1316903905.0",
+      "band_id": 3288886718,
+      "url": "\/track\/shigeru-miyamoto?pk=358",
+      "track_id": 1822839933,
+      "number": 10,
+      "duration": 212.88
+    }
+  ],
+  "band_id": 3288886718,
+  "url": "http:\/\/jonathanmann.bandcamp.com\/album\/the-mario-opera-act-1-demos?pk=358",
+  "large_art_url": "http:\/\/f.bandcamp.com\/z\/43\/55\/435516775-1.png",
+  "release_date": 1117584000,
+  "about": "This is the official Mario Opera album. Accept no imitations!"
+}

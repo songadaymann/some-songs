@@ -1,0 +1,59 @@
+<div id="player-template" class="sm2player">
+
+ <!-- player UI (bar) -->
+
+ <div class="ui">
+
+  <div class="left">
+   <a href="jsamp.html#" title="Pause/Play" onclick="soundPlayer.togglePause();return false" class="trigger pauseplay"><span></span></a>
+  </div>
+
+  <div class="mid">
+
+   <div class="progress"></div>
+   <div class="info"><span class="caption text">%{artist} - %{title} [%{album}], (%{year}) (%{time})</span></div>
+   <!--<div class="default">SomeSongs MP3 Player, powered by jsAMP Technology Preview</div>-->
+   <div class="default">SomeSongs MP3 Player, powered by jsAMP</div>
+
+   <div class="seek">Seek to %{time1} of %{time2} (%{percent}%)</div>
+   <div class="divider">&nbsp;&nbsp;---&nbsp;&nbsp;</div>
+   <a href="jsamp.html#" title="" class="slider"></a>
+  </div>
+
+  <div class="right">
+   <div class="divider"></div>
+   <div class="time" title="Time">0:00</div>
+
+   <a href="jsamp.html#" title="Previous" class="trigger prev" onclick="soundPlayer.oPlaylist.playPreviousItem();return false"><span></span></a>
+   <a href="jsamp.html#" title="Next" class="trigger next" onclick="soundPlayer.oPlaylist.playNextItem();return false"><span></span></a>
+   <a href="jsamp.html#" title="Shuffle" class="trigger s1 shuffle" onclick="soundPlayer.toggleShuffle();return false"><span></span></a>
+   <a href="jsamp.html#" title="Repeat" class="trigger s2 loop" onclick="soundPlayer.toggleRepeat();return false"><span></span></a>
+   <a href="jsamp.html#" title="Mute" class="trigger s3 mute" onclick="soundPlayer.toggleMute();return false"><span></span></a>
+   <a href="jsamp.html#" title="Volume" onmousedown="soundPlayer.volumeDown(event);return false" onclick="return false" class="trigger s4 volume"><span></span></a>
+   <!--<a href="#" title="Playlist" class="trigger dropdown" style="cursor:default" onclick="return false"><span></span></a>-->
+   <a href="jsamp.html#" class="trigger dropdown" style="cursor:default" onclick="return false"><span></span></a>
+  </div>
+
+ </div>
+
+ <div class="sm2playlist-box">
+
+ <!-- playlist / controls -->
+ <div id="playlist-template" class="sm2playlist">
+
+  <div class="hd"><div class="c"></div></div>
+  <div class="bd">
+   <ul>
+
+    <!-- playlist items created, inserted here
+     <li><a href="/path/to/some.mp3"><span>Artist - Song Name, etc.</span></a></li>
+    -->
+   </ul>
+  </div>
+  <div class="ft"><div class="c"></div></div>
+ </div>
+
+ <!-- close container -->
+ </div>
+
+</div>

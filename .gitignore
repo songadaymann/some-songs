@@ -1,0 +1,6 @@
+*.iml
+target
+src/main/resources/somesongs.properties
+src/main/resources/log4j.properties
+.idea
+

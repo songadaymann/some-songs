@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+  <bean id="mockMailSender" class="com.ssj.mail.spring.mock.MockMailSenderImpl"/>
+
+<!-- this works
+  <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+    <property name="host" value="smtp.gmail.com"/>
+    <property name="port" value="465"/>
+    <property name="protocol" value="smtps"/>
+    <property name="username" value="somesongs.admin@gmail.com"/>
+    <property name="username" value="sampdouglass@gmail.com"/>
+    <property name="password" value="gmailstink"/>
+    <property name="password" value="some123admin!@#"/>
+    <property name="javaMailProperties">
+      <props>
+        <prop key="mail.smtps.auth">true</prop>
+        <prop key="mail.smtps.starttls.enable">true</prop>
+        <prop key="mail.smtps.debug">true</prop>
+      </props>
+    </property>
+  </bean>
+-->
+  <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+    <property name="host" value="${mail.smtp.host:smtp.gmail.com}"/>
+    <property name="port" value="${mail.smtp.port:465}"/>
+    <property name="protocol" value="${mail.smtp.protocol:smtps}"/>
+    <property name="username" value="${mail.smtp.username}"/>
+    <property name="password" value="${mail.smtp.password}"/>
+    <property name="javaMailProperties">
+      <props>
+        <prop key="mail.smtps.auth">${mail.smtp.authenticate:true}</prop>
+        <prop key="mail.smtps.starttls.enable">${mail.smtp.starttls:true}</prop>
+        <prop key="mail.smtps.debug">${mail.smtp.debug:false}</prop>
+      </props>
+    </property>
+  </bean>
+
+<!-- doesn't work unfortunately
+  <bean id="mailSenderGM" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+    <property name="host" value="geneticmail.com"/>
+    <property name="port" value="587"/>
+    <property name="protocol" value="smtps"/>
+    <property name="username" value="sam"/>
+    <property name="password" value="stink"/>
+    <property name="javaMailProperties">
+      <props>
+        <prop key="mail.smtps.auth">true</prop>
+        <prop key="mail.smtps.starttls.enable">true</prop>
+        <prop key="mail.smtps.debug">true</prop>
+      </props>
+    </property>
+  </bean>
+-->
+
+  <bean id="velocityEngine" class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
+    <property name="resourceLoaderPath" value="/WEB-INF/velocity/"/>
+  </bean>
+
+  <bean id="registrationMessage" class="org.springframework.mail.SimpleMailMessage">
+    <property name="from" value="${mail.system.from}"/>
+    <!--<property name="from" value="system@somesongs.com"/>-->
+    <property name="subject" value="Your site.name registration is complete"/>
+  </bean>
+
+  <bean id="newPasswordMessage" class="org.springframework.mail.SimpleMailMessage">
+    <property name="from" value="${mail.system.from}"/>
+    <!--<property name="from" value="system@somesongs.com"/>-->
+    <property name="subject" value="Your site.name password"/>
+  </bean>
+
+  <bean id="loginReminderMessage" class="org.springframework.mail.SimpleMailMessage">
+    <property name="from" value="${mail.system.from}"/>
+    <!--<property name="from" value="system@somesongs.com"/>-->
+    <property name="subject" value="Your site.name login"/>
+  </bean>
+
+  <bean id="newAdminMessage" class="org.springframework.mail.SimpleMailMessage">
+    <property name="from" value="${mail.system.from}"/>
+    <!--<property name="from" value="system@somesongs.com"/>-->
+    <property name="subject" value="New message for administrator(s)"/>
+  </bean>
+
+  <bean id="brokenLinkMessage" class="org.springframework.mail.SimpleMailMessage">
+    <property name="from" value="${mail.system.from}"/>
+    <property name="subject" value="site.name - Broken Link"/>
+  </bean>
+
+</beans>
