@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Some Songs</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    body { font-family: sans-serif; }
+    nav a { margin-right: 10px; cursor: pointer; }
+    .hidden { display: none; }
+    audio { width: 300px; }
+    .sale { color: green; vertical-align: middle; }
+    .view div.song { border-bottom: 1px solid #ccc; padding: 8px 0; }
+  </style>
+</head>
+<body>
+  <h1>Some Songs</h1>
+  <div id="login">
+    <input id="name" placeholder="Your name">
+    <button id="register">Register</button>
+    <button id="walletLogin">Connect Wallet</button>
+  </div>
+  <nav id="nav" class="hidden">
+    <a data-view="songs">Songs</a>
+    <a data-view="playlists">Playlists</a>
+    <a data-view="favorites">Favorites</a>
+    <a data-view="board">Board</a>
+    <a data-view="leaderboard">Leaderboard</a>
+    <a data-view="collection">Collection</a>
+  </nav>
+  <section id="songs" class="view"></section>
+  <section id="playlists" class="view hidden"></section>
+  <section id="favorites" class="view hidden"></section>
+  <section id="board" class="view hidden"></section>
+  <section id="leaderboard" class="view hidden"></section>
+  <section id="collection" class="view hidden"></section>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
