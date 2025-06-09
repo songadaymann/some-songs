@@ -3,6 +3,7 @@ import db from '../lib/db.js';
 import { nanoid } from 'nanoid';
 
 const router = Router();
+export const adminRouter = Router();
 
 router.get('/leaderboard', (req, res) => {
   db.read();
@@ -98,6 +99,37 @@ router.post('/:id/preferences', (req, res) => {
   }
   db.write();
   res.status(201).json({ preferred: user.preferredUsers, ignored: user.ignoredUsers });
+});
+
+// Admin routes
+adminRouter.use((req, res, next) => {
+  if (req.query.key !== process.env.ADMIN_KEY) {
+    return res.status(401).send('Unauthorized');
+  }
+  next();
+});
+
+adminRouter.get('/users', (req, res) => {
+  db.read();
+  res.json(db.data.users);
+});
+
+adminRouter.delete('/users/:id', (req, res) => {
+  db.read();
+  db.data.users = db.data.users.filter(u => u.id !== req.params.id);
+  db.write();
+  res.status(204).send();
+});
+
+adminRouter.patch('/users/:id', (req, res) => {
+  db.read();
+  const user = db.data.users.find(u => u.id === req.params.id);
+  if (!user) return res.status(404).send('User not found');
+  const updates = { ...req.body };
+  delete updates.id;
+  Object.assign(user, updates);
+  db.write();
+  res.json(user);
 });
 
 export default router;
