@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
-import { algoliasearch } from 'algoliasearch';
+import algoliasearch from 'algoliasearch';
 import cron from 'node-cron';
 import path from 'path';
 import { fileURLToPath } from 'url';
