@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "6-SZKIG0JRaCXhamRXnJO",
+      "name": "bob",
+      "points": 0,
+      "listeningStreak": 0,
+      "ratingStreak": 0,
+      "favorites": [],
+      "savedSearches": [],
+      "wallet": null,
+      "preferredUsers": [
+        "a"
+      ],
+      "ignoredUsers": [
+        "b"
+      ]
+    }
+  ],
+  "playlists": [
+    {
+      "id": "EX8JSv3-IrggalX_J9xiR",
+      "userId": "u1",
+      "name": "P1",
+      "songIds": [],
+      "comments": [
+        {
+          "id": "9cr7ECM6CNpxmTVNKcl2M",
+          "userId": "u1",
+          "text": "c1",
+          "parentId": null,
+          "date": "2025-06-08T17:54:58.770Z"
+        }
+      ]
+    }
+  ],
+  "ratings": [],
+  "comments": [
+    {
+      "id": "st6_GLnNzcD7-CXoUI-fI",
+      "songId": "1",
+      "userId": "u1",
+      "text": "hi",
+      "parentId": null,
+      "date": "2025-06-08T17:37:32.365Z"
+    },
+    {
+      "id": "YXJQUxx094nfPE5WnQh9R",
+      "songId": "1",
+      "userId": "u1",
+      "text": "hi",
+      "parentId": null,
+      "date": "2025-06-08T17:37:39.532Z"
+    },
+    {
+      "id": "wrgmu_7SxpZ_cxtJZepMb",
+      "songId": "1",
+      "userId": "u1",
+      "text": "hi",
+      "parentId": null,
+      "date": "2025-06-08T17:54:58.759Z"
+    }
+  ],
+  "boardPosts": [
+    {
+      "id": "8HkOyv2Fq_lwEGEkdOYCU",
+      "userId": "u1",
+      "text": "root",
+      "parentId": null,
+      "date": "2025-06-08T17:54:58.775Z"
+    },
+    {
+      "id": "fL3acHEoEvj51Ob8jjgtH",
+      "userId": "u1",
+      "text": "hi",
+      "parentId": "8HkOyv2Fq_lwEGEkdOYCU",
+      "date": "2025-06-08T17:54:58.778Z"
+    }
+  ],
+  "listens": [],
+  "brokenReports": [
+    {
+      "id": "SpI3DiL-g2AXCEmy60CzD",
+      "userId": "u1",
+      "songId": "1",
+      "note": "bad link",
+      "date": "2025-06-08T17:54:58.765Z"
+    }
+  ]
+}
