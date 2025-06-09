@@ -6,7 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 import songsRouter from './routes/songs.js';
-import usersRouter from './routes/users.js';
+import usersRouter, { adminRouter as usersAdminRouter } from './routes/users.js';
 import playlistsRouter from './routes/playlists.js';
 import boardRouter from './routes/board.js';
 import walletRouter from './routes/wallet.js';
@@ -74,6 +74,7 @@ app.use('/playlists', playlistsRouter);
 app.use('/board', boardRouter);
 app.use('/wallet', walletRouter);
 app.use('/admin', adminRouter);
+app.use('/admin', usersAdminRouter);
 
 app.get('/', (req, res) => {
   res.send('Some Songs API');

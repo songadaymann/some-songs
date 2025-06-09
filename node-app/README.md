@@ -69,6 +69,9 @@ The server exposes the following endpoints:
 - `DELETE /board/:id` – remove board post (`?key=ADMIN_KEY`)
 - `GET /admin/broken` – list broken link reports (`?key=ADMIN_KEY`)
 - `POST /admin/broken/:id/resolve` – mark broken report resolved (`?key=ADMIN_KEY`)
+- `GET /admin/users` – list all users (`?key=ADMIN_KEY`)
+- `DELETE /admin/users/:id` – delete a user (`?key=ADMIN_KEY`)
+- `PATCH /admin/users/:id` – edit user data (`?key=ADMIN_KEY`)
 - `POST /wallet/login` – login via wallet signature (`{address, signature}`)
 - `GET /wallet/collection/:address` – NFT token IDs owned by the wallet
 
